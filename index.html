@@ -70,6 +70,7 @@ p{color:var(--gray)}
 /* FOOTER */
 footer{text-align:center;padding:40px 20px;background:#0a0a0a;color:var(--gray);margin-top:40px}
 
+/* RESPONSIVE */
 @media(max-width:768px){
   .about{grid-template-columns:1fr}
   .hero h1{font-size:2rem}
@@ -86,18 +87,78 @@ footer{text-align:center;padding:40px 20px;background:#0a0a0a;color:var(--gray);
   <a href="https://wa.me/522224290839" class="btn">📲 Contactar por WhatsApp</a>
 </section>
 
-<!-- NUEVA SECCIÓN INTRODUCTORIA -->
+<!-- NUEVA SECCIÓN SOLID EDGE -->
 <section style="background:#111;">
-  <div style="max-width:1000px; margin:auto; text-align:center;">
+  <div style="text-align:center;">
     <h2 style="font-size:2.2rem;">🚀 Diseña el futuro con Solid Edge</h2>
-    <p style="font-size:1.1rem; color:#cfcfcf; max-width:800px; margin:20px auto;">
-      <strong>Solid Edge</strong> es un software profesional de diseño 3D usado en ingeniería, manufactura y desarrollo de productos.
-      Con esta herramienta puedes convertir ideas en modelos reales, crear piezas mecánicas, ensamblajes y planos técnicos listos para fabricar.
+    <p style="max-width:800px;margin:auto;">
+      <strong>Solid Edge</strong> es un software profesional de diseño 3D usado en ingeniería, manufactura y desarrollo de productos. Con esta herramienta puedes convertir ideas en modelos reales, crear piezas mecánicas, ensamblajes y planos técnicos listos para fabricar.
     </p>
 
-    <div style="margin-top:40px; display:grid; gap:25px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr));">
-      <div style="background:#1b1b1b; padding:25px; border-radius:10px;">
+    <div style="margin-top:50px; display:grid; gap:25px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr));">
+      <div style="background:#1b1b1b;padding:25px;border-radius:10px;">
         <h3>💼 Más oportunidades laborales</h3>
-        <p>Habilidad muy buscada en industrias como automotriz, manufactura y tecnología.</p>
+        <p>El diseño CAD es una habilidad muy buscada en industrias reales.</p>
       </div>
-      <div style="background:#1b1b1b; padding:25px; border-rad
+      <div style="background:#1b1b1b;padding:25px;border-radius:10px;">
+        <h3>🧠 Habilidad técnica de alto valor</h3>
+        <p>Aprendes diseño profesional usado por ingenieros.</p>
+      </div>
+      <div style="background:#1b1b1b;padding:25px;border-radius:10px;">
+        <h3>🏗 Ideas que se vuelven reales</h3>
+        <p>Diseña piezas y mecanismos listos para fabricar.</p>
+      </div>
+      <div style="background:#1b1b1b;padding:25px;border-radius:10px;">
+        <h3>🌎 Trabajo remoto y freelance</h3>
+        <p>Genera ingresos usando solo tu computadora.</p>
+      </div>
+    </div>
+
+    <p style="margin-top:40px;">No necesitas experiencia previa. Empieza desde cero y crece paso a paso.</p>
+    <a href="https://wa.me/522224290839" class="btn">Quiero aprender Solid Edge</a>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section>
+  <h2 style="text-align:center">Servicios</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Clases 1 a 1</h3>
+      <p>Aprende a tu ritmo con enseñanza personalizada.</p>
+      <div class="price">$300 MXN / hora</div>
+      <a href="https://wa.me/522224290839" class="btn">Reservar clase</a>
+    </div>
+    <div class="card">
+      <h3>Curso Básico</h3>
+      <p>Desde cero hasta crear tus primeros modelos 3D.</p>
+      <div class="price">$1,200 MXN</div>
+      <a href="https://wa.me/522224290839" class="btn">Inscribirme</a>
+    </div>
+    <div class="card">
+      <h3>Diseño CAD</h3>
+      <p>Modelado 3D y planos técnicos profesionales.</p>
+      <div class="price">Cotización personalizada</div>
+      <a href="https://wa.me/522224290839" class="btn">Solicitar diseño</a>
+    </div>
+  </div>
+</section>
+
+<!-- resto de tu página sigue igual ... -->
+
+<footer>
+  © 2026 Solid Edge Pro — Cursos y Servicios CAD
+</footer>
+
+<script>
+const questions=document.querySelectorAll(".faq-question");
+questions.forEach(q=>{
+  q.addEventListener("click",()=>{
+    const answer=q.nextElementSibling;
+    answer.style.display=answer.style.display==="block"?"none":"block";
+  });
+});
+</script>
+
+</body>
+</html>
