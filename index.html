@@ -43,64 +43,10 @@ p{color:var(--gray)}
 .hero{text-align:center;padding-top:90px}
 .hero h1{font-size:2.5rem}
 .hero p{max-width:600px;margin:auto}
-  <!-- ¿QUÉ ES SOLID EDGE Y POR QUÉ APRENDERLO? -->
-<section style="background:#111; padding:80px 20px;">
-  <div style="max-width:1000px; margin:auto; text-align:center;">
-    
-    <h2 style="font-size:2.2rem; margin-bottom:20px;">
-      🚀 Diseña el futuro con Solid Edge
-    </h2>
-
-    <p style="font-size:1.1rem; color:#cfcfcf; max-width:800px; margin:auto;">
-      <strong>Solid Edge</strong> es un software profesional de diseño 3D usado en ingeniería, manufactura y desarrollo de productos.  
-      Con esta herramienta puedes convertir ideas en modelos reales, crear piezas mecánicas, ensamblajes y planos técnicos listos para fabricar.
-    </p>
-
-    <div style="margin-top:50px; display:grid; gap:25px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr));">
-
-      <div style="background:#1b1b1b; padding:25px; border-radius:10px;">
-        <h3>💼 Más oportunidades laborales</h3>
-        <p>El diseño CAD es una habilidad muy buscada en industrias como la automotriz, manufactura, metalmecánica y tecnología.</p>
-      </div>
-
-      <div style="background:#1b1b1b; padding:25px; border-radius:10px;">
-        <h3>🧠 Desarrolla habilidades técnicas</h3>
-        <p>Aprendes a pensar como ingeniero: diseño funcional, precisión, creatividad y solución de problemas reales.</p>
-      </div>
-
-      <div style="background:#1b1b1b; padding:25px; border-radius:10px;">
-        <h3>🏗 Convierte ideas en proyectos reales</h3>
-        <p>Desde una pieza simple hasta un mecanismo completo, podrás diseñar productos que pueden fabricarse en la vida real.</p>
-      </div>
-
-      <div style="background:#1b1b1b; padding:25px; border-radius:10px;">
-        <h3>🌎 Trabaja desde cualquier lugar</h3>
-        <p>El diseño 3D te permite colaborar en proyectos, hacer trabajos freelance y generar ingresos con tus habilidades digitales.</p>
-      </div>
-
-    </div>
-
-    <p style="margin-top:50px; font-size:1.15rem; color:#e0e0e0;">
-      No necesitas experiencia previa. Con la guía correcta puedes empezar desde cero y avanzar paso a paso hasta dominar el diseño profesional.
-    </p>
-
-    <a href="https://wa.me/522224290839" class="btn" style="margin-top:25px;">
-      Quiero aprender Solid Edge
-    </a>
-
-  </div>
-</section>
-
 
 /* SERVICES */
 .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;margin-top:40px}
-.card{
-  background:var(--card);
-  padding:25px;
-  border-radius:10px;
-  text-align:center;
-  transition:.3s;
-}
+.card{background:var(--card);padding:25px;border-radius:10px;text-align:center;transition:.3s;}
 .card:hover{transform:translateY(-5px)}
 .price{color:var(--accent);font-weight:700;margin:10px 0}
 
@@ -118,23 +64,12 @@ p{color:var(--gray)}
 
 /* FAQ */
 .faq-item{margin-bottom:15px}
-.faq-question{
-  background:var(--card);
-  padding:15px;
-  cursor:pointer;
-  border-radius:6px;
-  font-weight:600;
-}
-.faq-answer{
-  display:none;
-  padding:10px 15px;
-  color:var(--gray);
-}
+.faq-question{background:var(--card);padding:15px;cursor:pointer;border-radius:6px;font-weight:600;}
+.faq-answer{display:none;padding:10px 15px;color:var(--gray);}
 
 /* FOOTER */
 footer{text-align:center;padding:40px 20px;background:#0a0a0a;color:var(--gray);margin-top:40px}
 
-/* RESPONSIVE */
 @media(max-width:768px){
   .about{grid-template-columns:1fr}
   .hero h1{font-size:2rem}
@@ -151,71 +86,18 @@ footer{text-align:center;padding:40px 20px;background:#0a0a0a;color:var(--gray);
   <a href="https://wa.me/522224290839" class="btn">📲 Contactar por WhatsApp</a>
 </section>
 
-<!-- SERVICIOS -->
-<section>
-  <h2 style="text-align:center">Servicios</h2>
-  <div class="services">
-    <div class="card">
-      <h3>Clases 1 a 1</h3>
-      <p>Aprende a tu ritmo con enseñanza personalizada.</p>
-      <div class="price">$300 MXN / hora</div>
-      <a href="https://wa.me/522224290839" class="btn">Reservar clase</a>
-    </div>
-    <div class="card">
-      <h3>Curso Básico</h3>
-      <p>Desde cero hasta crear tus primeros modelos 3D.</p>
-      <div class="price">$1,200 MXN</div>
-      <a href="https://wa.me/522224290839" class="btn">Inscribirme</a>
-    </div>
-    <div class="card">
-      <h3>Diseño CAD</h3>
-      <p>Modelado 3D y planos técnicos profesionales.</p>
-      <div class="price">Cotización personalizada</div>
-      <a href="https://wa.me/522224290839" class="btn">Solicitar diseño</a>
-    </div>
-  </div>
-</section>
+<!-- NUEVA SECCIÓN INTRODUCTORIA -->
+<section style="background:#111;">
+  <div style="max-width:1000px; margin:auto; text-align:center;">
+    <h2 style="font-size:2.2rem;">🚀 Diseña el futuro con Solid Edge</h2>
+    <p style="font-size:1.1rem; color:#cfcfcf; max-width:800px; margin:20px auto;">
+      <strong>Solid Edge</strong> es un software profesional de diseño 3D usado en ingeniería, manufactura y desarrollo de productos.
+      Con esta herramienta puedes convertir ideas en modelos reales, crear piezas mecánicas, ensamblajes y planos técnicos listos para fabricar.
+    </p>
 
-<!-- PORTAFOLIO -->
-<section>
-  <h2 style="text-align:center">Portafolio</h2>
-  <div class="portfolio">
-    <img src="https://via.placeholder.com/400x300" alt="Modelo 3D 1">
-    <img src="https://via.placeholder.com/400x300" alt="Plano técnico">
-    <img src="https://via.placeholder.com/400x300" alt="Ensamblaje mecánico">
-  </div>
-</section>
-
-<!-- TESTIMONIOS -->
-<section>
-  <h2 style="text-align:center">Lo que dicen los alumnos</h2>
-  <div class="testimonials">
-    <div class="testimonial">“Las clases me ayudaron a mejorar rapidísimo.” — Carlos</div>
-    <div class="testimonial">“Ahora puedo hacer mis propios planos técnicos.” — Mariana</div>
-  </div>
-</section>
-
-<!-- SOBRE MI -->
-<section class="about">
-  <div>
-    <h2>Sobre mí</h2>
-    <p>Soy instructor y diseñador CAD con experiencia en Solid Edge. Ayudo a estudiantes y profesionales a dominar el modelado 3D y la creación de planos técnicos de forma práctica y sencilla.</p>
-    <a href="https://wa.me/522224290839" class="btn">Hablar conmigo</a>
-  </div>
-  <img src="https://via.placeholder.com/500x400" alt="Instructor Solid Edge">
-</section>
-
-<!-- FAQ -->
-<section>
-  <h2 style="text-align:center">Preguntas Frecuentes</h2>
-  <div class="faq-item">
-    <div class="faq-question">¿Necesito experiencia previa?</div>
-    <div class="faq-answer">No, el curso básico está diseñado para principiantes.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">¿Qué necesito para las clases?</div>
-    <div class="faq-answer">Una computadora con Solid Edge instalado y conexión a internet.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">¿Cómo agendo una clase?</div>
-    <div class
+    <div style="margin-top:40px; display:grid; gap:25px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr));">
+      <div style="background:#1b1b1b; padding:25px; border-radius:10px;">
+        <h3>💼 Más oportunidades laborales</h3>
+        <p>Habilidad muy buscada en industrias como automotriz, manufactura y tecnología.</p>
+      </div>
+      <div style="background:#1b1b1b; padding:25px; border-rad
